@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 0px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+
+#page-title a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #DDD618; 
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#content-area{
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#page-title {
+    font-size: 1.5rem;;
+    display: inline-block;
+    text-align: left;
+    width: 69%;
+}
+
+#date {
+    font-size: 1rem;;
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+}
+
+#main-nav li{
+    display: inline-block;
+    list-style-type: none;
+    background-color:#7A5901;
+    border-radius: 2em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    text-align: center;
+    width: 24.1%;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#main-nav li:hover {
+    background-color:rgb(159, 92, 92);
+}
+
+#main-nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
+main {
+    float:left;
+    width: 74%;
+}
+
+aside {
+    float: right;
+    text-align: center;
+    width: 25%;
+}
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 0px;
+    padding: none;
+}
+
+.most-popular-list {
+    margin-left: 0px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color:white;
+    }
+
+    #date {
+        text-align: left;
+    }
+
+    main {
+        float: left;
+        width: 100%
+    }
+
+    aside {
+        float: left;
+        width: 100%
+    }
+    ol li {
+        list-style-type: none;
+    }
+
+    #most-shared-section, #most-read-section, #most-watched-section {
+        
+        width: 25%;
+    }
+}
+
