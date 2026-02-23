@@ -21,7 +21,7 @@ Add the viewport meta tag to the `<head>` of the HTML file:
 
 Use the device simulator in Chrome to explore how simply adding this tag has affected the layout on different devices.
 
-### Exercise 3.3: Customise the layout for medium-sized devices
+### Exercise 2.1: Customise the layout for medium-sized devices
 Remove the page background colour and margins around the content area for all devices smaller than 768px. To do this, add the following media query and override the appropriate style rules (one example of overriding styles is provided).
 ```
 @media screen and (max-width:768px) {
@@ -37,14 +37,14 @@ Here are some more changes to make for medium-sized devices:
 
 Create further customizations if they will improve the layout on tablets.
 
-### Exercise 3.4: Further customize the layout for small devices
+### Exercise 2.2: Further customize the layout for small devices
 For this exercise, we’ll define small devices as those under 425px wide. Add a media query with a `max-width` of 425px and make the following layout changes for small devices only:
 - Remove the float on the main story image, centre align it and make sure it’s no bigger than the width of its container. You will need to use the `max-width` property.
 - In the previous exercise, you converted the “Most Popular” section from a single column to a three-column layout for all devices less than 768px. This style should only apply to tablets. For devices with a maximum width of 425 pixels, the layout of the “Most Popular” section should be the same as it is for devices bigger than 768px.
 
 Create further customizations if they will improve the layout on the smallest devices. Be sure to check how your site looks at the smallest breakpoint.
 
-## Stage 2: (Optional) Make Your Portfolio Responsive
+## Stage 3: (Optional) Make Your Portfolio Responsive
 If you finish early, add go back to the portfolio you have worked on in previous practicals and check how it appears on small devices. Add media queries to adjust the layout as needed.
 
 ## York University Press medium (tablet) device layout
